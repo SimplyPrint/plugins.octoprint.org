@@ -3,10 +3,12 @@ layout: plugin
 id: psucontrol_shelly
 title: PSU Control - Shelly
 description: Adds Shelly smart switch support to OctoPrint-PSUControl as a sub-plugin 
-archive: https://github.com/edekeijzer/OctoPrint-PSUControl-Shelly/archive/main.zip
-homepage: https://github.com/edekeijzer/OctoPrint-PSUControl-Shelly
-source: https://github.com/edekeijzer/OctoPrint-PSUControl-Shelly
-author: Erik de Keijzer
+archive: https://github.com/Triodes/OctoPrint-PSUControl-Shelly/archive/main.zip
+homepage: https://github.com/Triodes/OctoPrint-PSUControl-Shelly
+source: https://github.com/Triodes/OctoPrint-PSUControl-Shelly
+authors: 
+- Aron List
+- Erik de Keijzer
 license: AGPLv3
 date: 2021-05-15
 tags:
@@ -28,4 +30,4 @@ compatibility:
   python: ">=3,<4"
 ---
 
-See <https://github.com/edekeijzer/OctoPrint-PSUControl-Shelly> for information on configuration.
+See <https://github.com/Triodes/OctoPrint-PSUControl-Shelly> for information on configuration.

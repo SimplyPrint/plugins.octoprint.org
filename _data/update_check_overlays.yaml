@@ -17,7 +17,8 @@ filamentmanager:
 klipper:
   user: AliceGrey
 costestimation:
-  user: OllisGit
+  user: Hillshum
+  pip: https://github.com/Hillshum/OctoPrint-CostEstimation/releases/download/{target_version}/master.zip
 filamentreload:
   user: nickmitchko
 eeprom_marlin:
@@ -42,3 +43,49 @@ HeaterTimeout:
 smartfilamentsensor:
   user: Royrdan
   pip: https://github.com/Royrdan/Octoprint-Smart-Filament-Sensor/archive/{target_version}.zip
+ledstripcontrol:
+  user: gbonesso
+  pip: https://github.com/gbonesso/OctoPrint-LEDStripControl/archive/{target_version}.zip
+excluderegion:
+  user: bradcfisher
+SlicerSettingsParser:
+  user: larsjuhw
+webhooks:
+  user: derekantrican
+  pip: https://github.com/derekantrican/OctoPrint-Webhooks/archive/{target_version}.zip
+octolight:
+  user: thomst08
+PrintJobHistory:
+  user: vojtakaniok
+  pip: https://github.com/vojtakaniok/OctoPrint-PrintJobHistory/releases/download/{target_version}/main.zip
+SpoolManager:
+  user: WildRikku
+  pip: https://github.com/WildRikku/OctoPrint-SpoolManager/releases/download/{target_version}/main.zip
+telegram:
+  user: jacopotediosi
+  pip: https://github.com/jacopotediosi/OctoPrint-Telegram/archive/{target_version}.zip
+marlinslider:
+  user: jneilliii
+  pip: https://github.com/jneilliii/OctoPrint-MarlinSlider/archive/{target_version}.zip
+macro:
+  displayName: Sidebar Macros
+  user: apbarratt
+  pip: https://github.com/apbarratt/octoprint_sidebar_macros/releases/download/{target_version}/Sidebar-Macros.zip
+  repo: octoprint_sidebar_macros
+sidebarmacros:
+  displayName: Sidebar Macros
+  user: apbarratt
+  pip: https://github.com/apbarratt/octoprint_sidebar_macros/releases/download/{target_version}/Sidebar-Macros.zip
+  repo: octoprint_sidebar_macros
+psucontrol_shelly:
+  user: triodes
+  pip: https://github.com/triodes/OctoPrint-PSUControl-Shelly/archive/{target_version}.zip
+octoslack:
+  user: misconfigurations
+  pip: https://github.com/misconfigurations/Octoslack/archive/{target_version}.zip
+prettygcode:
+  user: jacopotediosi
+  pip: https://github.com/jacopotediosi/OctoPrint-PrettyGCode/archive/{target_version}.zip
+fullscreen:
+  user: MikeRatcliffe
+  pip: https://github.com/MikeRatcliffe/OctoPrint-FullScreen/archive/{target_version}.zip

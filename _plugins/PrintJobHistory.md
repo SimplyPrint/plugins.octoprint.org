@@ -3,15 +3,18 @@ layout: plugin
 
 id: PrintJobHistory
 title: PrintJobHistory
-description: The OctoPrint-Plugin stores all print-job informations of a print in a database.
-author: Olli
+description: The OctoPrint-Plugin stores all print-job information of a print in a database.
+authors:
+    - vojtakaniok
+    - dojohnso
+    - Olli
 license: AGPLv3
 
 date: 2020-05-28
 
-homepage: https://github.com/OllisGit/OctoPrint-PrintJobHistory
-source: https://github.com/OllisGit/OctoPrint-PrintJobHistory
-archive: https://github.com/OllisGit/OctoPrint-PrintJobHistory/releases/latest/download/master.zip
+homepage: https://github.com/vojtakaniok/OctoPrint-PrintJobHistory
+source: https://github.com/vojtakaniok/OctoPrint-PrintJobHistory
+archive: https://github.com/vojtakaniok/OctoPrint-PrintJobHistory/releases/latest/download/main.zip
 
 follow_dependency_links: false
 
@@ -56,14 +59,15 @@ featuredimage: /assets/img/plugins/PrintJobHistory/editPrintJob-dialog.png
 
 ---
 
-Print Job History-Plugin collects a lot of attributes from OctoPrint itself, like **Filename, Start/End-Time, Status, Username, Slicer-Settings** and many more. But it also grabs informations from other plugins: **Thumbnail, Layer-Information, Filament usage**...
+Print Job History-Plugin collects a lot of attributes from OctoPrint itself, like **Filename, Start/End-Time, Status, Username, Slicer-Settings** and many more. But it also grabs information from other plugins: **Thumbnail, Layer-Information, Filament usage**...
 
 For a full overview of the latest feature set and planed features, please visit the [Git Hub Homepage]({{ page.homepage | absolute_url }})
 
 
-#### Support my Efforts
+#### *NOTE: this plugin was once again abandoned ! Hopefully I will keep support longer*
 
-This plugin, as well as my [other plugins](https://github.com/OllisGit/) were developed in my spare time.
-If you like it, I would be thankful about a cup of coffee :)
+**This plugin is under new management** and will focus on critical bug fixes to start. Please bear with me as I get acclimated to this new plugin.
 
-[![paypal](/assets/img/plugins/SpoolManager/paypal-with-text.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6SW5R6ZUKLB5E&source=url)
+If you would like to support these new efforts, please consider buying me a coffee or two. Thank you!
+
+[![ko-fi](/assets/img/plugins/PrintJobHistory/githubbutton_sm.svg)](https://ko-fi.com/D1D21B0LA9)

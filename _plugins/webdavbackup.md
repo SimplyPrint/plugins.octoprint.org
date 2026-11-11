@@ -27,6 +27,10 @@ compatibility:
   - 1.5.0
   python: ">=3,<4"
 
+attributes:
+- cloud
+
+abandoned: https://github.com/OctoPrint/plugins.octoprint.org/issues/1485
 ---
 
 # WebDAV Backup

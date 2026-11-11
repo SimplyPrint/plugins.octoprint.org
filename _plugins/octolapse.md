@@ -10,7 +10,7 @@ date: 2018-03-24
 
 homepage: https://formerlurker.github.io/Octolapse/
 source: https://github.com/FormerLurker/Octolapse/
-archive: https://github.com/FormerLurker/Octolapse/archive/master.zip
+archive: https://github.com/FormerLurker/Octolapse/archive/refs/tags/v0.4.5.zip
 
 tags:
 - timelapse
@@ -27,7 +27,7 @@ compatibility:
   - windows
   - macos
   - freebsd
-  python: ">=2.7,<4"
+  python: ">=2.7,<3.12"
 
 ---
 

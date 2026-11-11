@@ -35,9 +35,9 @@ tags:
 
 
 screenshots:
-- url: /assets/img/plugins/shutdownbuttonledbuzzer/circuit.png
-  alt: circuit.png
-  caption: Circuit scheme
+#- url: /assets/img/plugins/shutdownbuttonledbuzzer/circuit.png
+#  alt: circuit.png
+#  caption: Circuit scheme
 - url: /assets/img/plugins/shutdownbuttonledbuzzer/settings1.png
   alt: settings1.png
   caption: Settings page
@@ -112,9 +112,17 @@ OctoPrint is ready and a buzzer to signal the startup and
 the shutdown. Remember that these signals may vary of few
 seconds.
 
-## Note
+By default, this plugin shuts down the Raspberry without
+checking of there are ongoing jobs. In settings, there is
+a flag to disable the button when printing.
 
-This plugin uses an **active** buzzer.
+## Notes
+
+To shut down the Raspberry, it uses the command configured in
+OctoPrint settings.
+
+This plugin supports both active and passive buzzers. By default,
+it assumes to have an active one.
 
 ## Setup
 
@@ -143,17 +151,29 @@ the official datasheet, before turning on the Raspberry.
 
 ![circuit](/assets/img/plugins/shutdownbuttonledbuzzer/circuit.png)
 
-## Configuration
+## FAQ
 
-This plugin offers several configuration parameters,
-accessible in the apposite OctoPrint section in setting:
+#### _What resistor does it need to use?_
 
-![settings1](/assets/img/plugins/shutdownbuttonledbuzzer/settings1.png)
-![settings2](/assets/img/plugins/shutdownbuttonledbuzzer/settings2.png)
-![settings3](/assets/img/plugins/shutdownbuttonledbuzzer/settings3.png)
+There is no a precise resistor needed, since it depends on how much
+light is needed. Despite this, it is suggested to use a value at
+least of few thousands of ohms. Always remember to check the
+connections and the datasheet.
+
+#### _Which buzzer does it need?_
+
+The plugin supports both active that passive buzzer, but it is
+necessary to configure them by the settings panel.
+
+#### Which LED does it need?
+
+A 5 mm LED is a good option, and it is usually in Arduino kits.
+In case a different one is attached, check that the current it needs
+is lower than the one a Raspberry pin can give.
 
 ## License
 
 This software is distributed on GPLv3.0, more information
 available in [LICENSE.md](
 https://github.com/danieleborgo/OctoPrint-ShutdownButtonLEDBuzzer/blob/master/LICENSE.md).
+

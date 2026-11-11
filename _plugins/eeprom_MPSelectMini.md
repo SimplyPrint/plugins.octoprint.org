@@ -3,7 +3,8 @@ layout: plugin
 
 id: eeprom_MPSelectMini
 title: EEPROM Editor for Monoprice Select Mini
-description: Makes it possible to change the EEPROM values of the Monoprice Select Mini or Malyan M200 Firmware through OctoPrint
+description: Makes it possible to change the EEPROM values of the Monoprice Select
+  Mini or Malyan M200 Firmware through OctoPrint
 author: Brian Ruhmann
 license: AGPLv3
 
@@ -22,11 +23,12 @@ tags:
 - helper
 
 screenshots:
-- url: /assets/img/plugins/eeprom_mpselectmini/screen.png
+- url: /assets/img/plugins/eeprom_MPSelectMini/screen.png
   alt: Settings
 
-featuredimage: /assets/img/plugins/eeprom_mpselectmini/screen.png
-
+featuredimage: /assets/img/plugins/eeprom_MPSelectMini/screen.png
+compatibility:
+  python: '>=2.7,<4'
 ---
 
 This plugin is designed to get, change and save the values in the EEPROM of your Monoprice Select Mini or Malyan M200 3D Printer.
